@@ -1,0 +1,17 @@
+# Local secrets and Python virtual environments.
+.env
+.venv/
+
+# Python bytecode and generated test/type-checker output.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Built Python packages and distribution artifacts.
+*.egg-info/
+dist/
+build/

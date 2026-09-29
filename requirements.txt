@@ -1,0 +1,15 @@
+# HTTP API server and request/response validation.
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+
+# Relational database access and schema migrations.
+sqlalchemy>=2.0,<3.0
+psycopg[binary]>=3.2,<4.0
+alembic>=1.13,<2.0
+
+# Environment-based configuration and asynchronous LLM HTTP requests.
+pydantic-settings>=2.4,<3.0
+httpx>=0.27,<1.0
+
+# Test runner for the API and service behavior.
+pytest>=8.0,<9.0
